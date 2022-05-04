@@ -12,6 +12,7 @@ GruvBox theme for the albert launcher.
 ## Light
 ![Screenshot](screenshot_light.png)
 
+## Installation
 Add `GruvBox Dark.qss`/`GruvBox Light.qss` to:
 
 `~/.local/share/albert/themes/`
