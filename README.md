@@ -1,14 +1,18 @@
-# adapta-theme-albert
+# gruvbox-theme-albert
 
-Adapta theme for the albert launcher.
+GruvBox theme for the albert launcher.
 
-<https://github.com/adapta-project/adapta-gtk-theme>
+<https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme>
 
 <https://github.com/albertlauncher/albert>
 
-![Screenshot](screenshot.png)
+## Dark
+![Screenshot](screenshot_dark.png)
 
-Add `Adapta.qss` to:
+## Light
+![Screenshot](screenshot_light.png)
+
+Add `GruvBox Dark.qss`/`GruvBox Light.qss` to:
 
 `~/.local/share/albert/themes/`
 
@@ -26,5 +30,9 @@ or
                 ||----w |
                 ||     ||
 ```
+
+# Credits
+
+Basically stole from https://github.com/will8211/adapta-theme-albert
 
 

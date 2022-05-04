@@ -1,4 +1,7 @@
 /*
+ * author: amar-laksh <https://github.com/amar-laksh>
+ * Modified from a theme by will8211 <https://github.com/will8211>
+ *
  * author: will8211 <https://github.com/will8211>
  * Modified from a theme by ubervison <https://github.com/ubervison>
  *
@@ -10,13 +13,13 @@
 * {
   border: none;
 	color : #E6E9EB;
-	background-color: #2A373E;
+	background-color: #252424;
 }
 
 #frame {
-	padding: 4px;
-	border-radius: 3px;
-	background-color: #2A373E;
+	padding: 2px;
+	border-radius: 1px;
+	background-color: #ddc7a1;
 
   /* Workaround for Qt to get fixed size button*/
 	min-width:640px;
@@ -28,14 +31,14 @@
 	border-radius: 2px;
 	border: 1px solid #21252B;
 	font-size: 36px;
-	selection-color: #2A373E;
+	selection-color: #575655;
 	selection-background-color: #E6E9EB;
-	background-color:  #3E515A;
+	background-color:  #252424;
 }
 
 #settingsButton {
 	color : #ffffff;
-	background-color: #2A373E;
+	background-color: #252424;
   padding: 4px;
 
   /* Respect the frame border */
@@ -53,8 +56,8 @@
 /********** ListViews **********/
 
 QListView::item:selected {
-	background: #00BCD4;
-	border: 1px solid #00BCD4;
+	background: #575655;
+	border: 1px solid #ddc7a1;
 }
 
 QListView QScrollBar:vertical  {
@@ -86,13 +89,13 @@ QListView#actionList::item{
 	height:28px;
 }
 
-/********** proposalList **********/
+/********** resultsList **********/
 
-QListView#proposalList {
+QListView#resultsList {
 	icon-size: 44px;
 	font-size: 26px;
 }
 
-QListView#proposalList::item{
+QListView#resultsList::item{
 	height:48px;
 }
